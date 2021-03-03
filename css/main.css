@@ -70,8 +70,8 @@ body {
   background-color: #8BC1C1;
   width: 100%;
   margin-bottom: 39px;
-  padding-top: 99px;
-  padding-bottom: 99px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .banner__content {
   display: -webkit-box;
@@ -113,15 +113,9 @@ body {
 .banner__desc {
   margin: 0;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 16px;
+  line-height: 25px;
   color: #FFFFFF;
-}
-@media (max-width: 890px) {
-  .banner__desc {
-    font-size: 20px;
-    line-height: 30px;
-  }
 }
 .rating {
   margin-bottom: 101px;

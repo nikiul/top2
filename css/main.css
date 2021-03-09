@@ -629,6 +629,11 @@ body {
     padding-right: 15px;
   }
 }
+@media (max-width: 600px) {
+  .picks__item {
+    width: 100%;
+  }
+}
 .item__top {
   width: 100%;
   display: -webkit-box;
@@ -648,12 +653,6 @@ body {
 @media (max-width: 1170px) {
   .item__top--big {
     margin-bottom: 12px;
-  }
-}
-@media (max-width: 500px) {
-  .item__img {
-    width: 60%;
-    height: auto;
   }
 }
 .item__rating {

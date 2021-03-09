@@ -238,6 +238,15 @@ body {
     width: 90%;
   }
 }
+@media (max-width: 400px) {
+  .card__left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px;
+  }
+}
 .card__desc {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -264,6 +273,11 @@ body {
 @media (max-width: 1170px) {
   .card__title {
     margin-bottom: 32px;
+  }
+}
+@media (max-width: 715px) {
+  .card__title {
+    text-align: center;
   }
 }
 .card__subtitle {

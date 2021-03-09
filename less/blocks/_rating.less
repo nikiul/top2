@@ -12,14 +12,8 @@
     color: rgba(0, 0, 0, 0.9);
 }   
 
-.rating__card-wrap {
-
-}
-
 .rating__card {
     margin-bottom: 66px;
-
-    
 }
 
 .card__main {
@@ -55,7 +49,6 @@
 }
 
 .card__number {
-    // position: relative;
     position: absolute;
     left: -2.5%;
     display: flex;
@@ -99,6 +92,10 @@
         margin-bottom: 50px;
         width: 90%;
     }
+    @media (max-width: 400px) {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
 }
 
 .card__img-link {
@@ -112,8 +109,6 @@
 .card__desc {
     display: flex;
     flex-direction: column;
-    // align-items: center;
-    // margin-left: 59px;
 
     @media (max-width: 1170px) {
         margin-bottom: 39px;
@@ -131,6 +126,9 @@
 
     @media (max-width: 1170px) {
         margin-bottom: 32px;
+    }
+    @media (max-width: 715px) {
+        text-align: center;
     }
 }
 
